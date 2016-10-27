@@ -3,7 +3,7 @@ library(jsonlite)
 library(dplyr)
 
 # Write a function that allows you to specify a movie, then does the following:
-  
+  movieSpecify <- function(movie) {
   # Replace all of the spaces in your movie title with plus signs (+)
   
   
@@ -24,7 +24,7 @@ library(dplyr)
   
   
   # Return an list of the three pieces of information from above
+  }
   
-
 # Test that your function works with a movie of your choice
 
